@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Nivell 1 exercici 8</title>
+        <meta name="keywords" content="Javascript, console, Node.js">
+        <meta name="author" content="Jordan Palencia">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script>
+            
+            function calculadora(operador, valor1 ,valor2){
+              
+                if(operador === 'suma'){
+                    document.write('suma' + (valor1 + valor2) + '<br>');
+                }
+                if(operador === 'resta'){
+                    document.write('resta' + (valor1 - valor2) + '<br>');
+                }
+                if (operador === 'multiplicació'){
+                    document.write('multiplicació' + (valor1 * valor2) + '<br>');
+                }
+            }
+            let operador, valor1, valor2;
+            var resultat = calculadora('suma', 40 , 20);
+            var resultat = calculadora('resta', 40 , 20);
+            var resultat = calculadora('multiplicació', 40 , 20);
+            
+        </script>
+
+    </head>
+    <body></body>
+</html>
